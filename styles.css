@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.menu {
+    background-color: #30305e;
+    color: #fff;
+    overflow: hidden;
+    height: 65px;
+
+
+}
+
+.menu h1 {
+    float: left;
+    margin-left: 75px;
+
+    position: relative;
+    top: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.menu nav {
+    float: right;
+    position: relative;
+    top: 15px;
+    right: 120px
+}
+
+.menu-link {
+    display: inline-block;
+    margin-right: 25px;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.menu-link:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.menu-link:active {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.hero {
+    background-image: url(./assets/Nascer\ do\ sol.png);
+    height: 65vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-content {
+    position: absolute;
+    margin-left: 50px;
+    top: 104px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.hero-content p {
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.hero-content button {
+    margin-top: 20px;
+    padding: 10px 40px;
+    background-color: #ff6400;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* .hero-content button:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+} */
+
+.hero-content button:hover{
+    background: #ff6400;
+    transform: scale(1.05);
+}
+
+.hero-content button:active {
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.portfolio {
+    text-align: center;
+    margin-top: 35px;
+    color: #30305e;
+    font-weight: 600;
+}
+
+.projects {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.card-img {
+    width: 330px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+
+}
+
+.projects button {
+    margin-top: 10px;
+    padding: 5px 20px;
+    background-color: #30305e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* .projects button:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+} */
+
+/* .projects button:active {
+    opacity: 0.5;
+    transition: 0.3s;
+} */
+
+.projects button:hover{
+    background: #30305e;
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+
+.projects button:active {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.projects div {
+    display: inline-block;
+    /* coloca lado a lado */
+    width: 330px;
+    /* mesma largura da imagem */
+    margin: 10px;
+    text-align: center;
+    border: solid 1px #f7f3f3;
+    box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    height: 55vh;
+
+}
+
+.projects div p {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #30305e;
+}
+
+.contact {
+    background-color: #f7f3f3;
+    height: 65vh;
+}
+.contact div {
+    margin-top: 35px;
+    margin-left: 50px;
+    color: #30305e;
+    font-weight: 600;
+    text-align: center;
+  
+}
+
+.div-contact {
+    display: inline-block;
+    vertical-align: top; /* alinha por cima */
+    width: 400px;
+    text-align: left;
+   
+}
+
+.div-contact h2 {
+    margin-top: 20px;
+    font-size: 41px;
+    font-weight: 600;
+    color: #30305e;
+}
+
+.div-contact p {
+    font-size: 15px;
+    font-weight: 300;
+    margin-right: 29px;
+     position: relative;
+    right: 29px;
+}
+
+.div-contact h3 {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #30305e;
+    position: relative;
+    right: 89px;
+}
+
+.contact form {
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 70px;
+     margin-left: 320px
+}
+
+.contact input,
+.contact textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+.contact button {
+    padding: 8px 15px;
+   background-color:#ff6400;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.contact button:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+
+
+footer {
+    background-color: #e0e0e0;
+    color: #30305e;
+    text-align: center;
+    padding: 15px 0;
+    /* margin-top: 20px; */
+    height: 10vh;
+}
